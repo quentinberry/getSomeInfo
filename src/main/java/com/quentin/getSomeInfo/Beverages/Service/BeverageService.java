@@ -3,13 +3,11 @@ package com.quentin.getSomeInfo.Beverages.Service;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.quentin.getSomeInfo.Beverages.Model.Beverage;
 
 @RestController
-@CrossOrigin
 public class BeverageService implements BeverageApi{
     
     @Override

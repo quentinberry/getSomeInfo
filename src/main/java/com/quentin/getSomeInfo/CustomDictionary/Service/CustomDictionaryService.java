@@ -3,13 +3,11 @@ package com.quentin.getSomeInfo.CustomDictionary.Service;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.quentin.getSomeInfo.CustomDictionary.Controller.CustomDictionary;
 
 @RestController
-@CrossOrigin
 public class CustomDictionaryService implements CustomDictionaryApi{
     
     @Override

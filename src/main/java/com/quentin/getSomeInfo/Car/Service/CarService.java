@@ -2,6 +2,7 @@ package com.quentin.getSomeInfo.Car.Service;
 
 import java.util.ArrayList;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.quentin.getSomeInfo.Car.Model.Car;
@@ -9,6 +10,7 @@ import com.quentin.getSomeInfo.Car.Model.Car.FUEL;
 import com.quentin.getSomeInfo.Car.Model.Car.TRANSMISSION;
 
 @RestController
+@CrossOrigin
 public class CarService implements CarApi{
     
     @Override
